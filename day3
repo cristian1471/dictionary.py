@@ -1,1 +1,169 @@
+#Test-psiho
+print(" 1934/1965 - Vremuri in care testul psihic se considera o necesitate . ")
+print("Validitatea testului este egala cu sinceritatea executantului.")
 
+name = input("Introguceti numele : ")
+print(f"Buna : {name} ")
+
+q1 = """Aveti adesea dorinta de a trai emotii puternice?
+                a)DA                                                  b)NU  """
+q2 = """Aveti in mod frecvent nevoia de prieteni intelegatori care sa va consoleze? 
+                a)DA                                                  b)NU  """
+q3 = """De obicei sunteti nepasator?
+               a)DA                                                   b)NU  """
+q4 ="""Va este foarte penibil sa suportati un refuz? 
+              a)DA                                                     b)NU  """
+q5 ="""Stati sa va ganditi inainte de a intreprinde ceva?
+              a)DA                                                     b)NU  """
+q6 ="""Vi se schimba deseori dispozitia? 
+              a)DA                                                     b)NU  """
+q7 ="""Actionati si vorbiti rapid, fara sa va ganditi? 
+              a)DA                                                     b)NU  """
+q8 = """Vi se intampla deseori sa fiti “nefericit” fara un motiv serios? 
+              a)DA                                                     b)NU  """
+q9 ="""Ati face orice cand sunteti pus la ambitie? 
+              a)DA                                                     b)NU  """
+q10 ="""Va simtiti dintr-o data timid cand trebuie sa intrati in vorba cu o persoana necunoscuta care va atrage? 
+              a)DA                                                     b)NU  """
+q11 ="""Vi se intampla in diverse ocazii sa va pierdeti calmul si sa va enervati? 
+              a)DA                                                     b)NU  """
+q12 ="""Actionati deseori dupa impresia de moment? 
+              a)DA                                                     b)NU  """
+q13 = """Vi se intampla deseori sa fiti necajit de lucruri pe care n-ar trebui sa le faceti sau sa le spuneti ?
+              a)DA                                                     b)NU  """
+q14 ="""Preferati in general tovarasia cartilor decat a oamenilor ? 
+              a)DA                                                     b)NU  """
+q15 ="""Va simtiti cu usurinta jignit? 
+              a)DA                                                     b)NU  """
+q16 ="""Va place mult sa iesiti in oras? 
+              a)DA                                                     b)NU  """
+q17 ="""Vi se intampla sa aveti ganduri si idei care nu v-ar place sa fie cunoscute de alte persoane? 
+              a)DA                                                     b)NU """
+q18 ="""Va simtiti uneori plin de energie, iar alteori apatic, abatut? 
+              a)DA                                                     b)NU """
+q19 ="""Preferati sa aveti prieteni putini dar alesi?
+              a)DA                                                     b)NU """
+q20 ="""Aveti obiceiul de a visa cu ochii deschisi? 
+              a)DA                                                     b)NU """
+q21 ="""Daca cineva striga la dumneavoastra ii raspundeti pe acelasi ton?
+              a)DA                                                     b)NU """
+q22 ="""Va incearca deseori sentimente de vinovatie? 
+              a)DA                                                     b)NU """
+q23 ="""Se poate spune ca modul dumneavoastra de a trai este bun si ca poate fi dat ca exemplu? 
+              a)DA                                                     b)NU """
+q24 ="""La o petrecere puteti sa va distrati bine? 
+              a)DA                                                     b)NU """
+q25 ="""Credeti despre dumneavoastra ca sunteti o persoana incordata si cu o sensibilitate excesiva? 
+              a)DA                                                     b)NU """
+q26 ="""Sunteti considerati un om plin de viata? 
+              a)DA                                                     b)NU """
+q27 ="""Dupa ce ati realizat un lucru important ramaneti cu impresia ca l-ati fi putut face mai bine? 
+              a)DA                                                     b)NU """
+q28 ="""Cand sunteti cu alte persoane, ramaneti majoritatea timpului tacut? 
+              a)DA                                                     b)NU """
+q29 ="""Vi se intampla cateodata sa barfiti? 
+              a)DA                                                     b)NU """
+q30 ="""Aveti noaptea ganduri care va impiedica sa dormiti? 
+              a)DA                                                     b)NU """
+q31 ="""Daca aveti nevoie de o lamurire, preferati s-o cautati mai degraba intr-o carte decat sa intrebati pe cineva? 
+              a)DA                                                     b)NU """
+q32 ="""Aveti palputatii sau batai de inima? 
+              a)DA                                                     b)NU """
+q33 ="""Va place o munca unde se cere multa atentie? 
+              a)DA                                                     b)NU """
+q34 ="""Aveti crize de tremuraturi sau frisoane? 
+              a)DA                                                     b)NU """
+q35 ="""Ati declara intotdeauna la vama tot ce aveti chiar daca ati sti ca nu veti fi prins? 
+              a)DA                                                     b)NU """
+q36 ="""Va displace sa fiti intr-un grup de oameni care-si fac farse?
+              a)DA                                                     b)NU """
+q37 ="""Sunteti cu usurinta iritabil?
+              a)DA                                                     b)NU """
+q38 ="""Va plac situatiile in care trebuie sa se actioneze rapid? 
+              a)DA                                                     b)NU """
+q39 ="""Sunteti tulburat de ideea unor lucruri ingrozitoare care vi s-ar putea intampla? 
+              a)DA                                                     b)NU """
+q40 ="""Sunteti lent si nepasator in felul dumneavoastra de a va misca? 
+              a)DA                                                     b)NU """
+q41 ="""Vi s-a intamplat vreodat sa intarziati la o intalnire sau la serviciu? 
+              a)DA                                                     b)NU """
+q42 ="""Aveti multe cosmaruri? 
+              a)DA                                                     b)NU """
+q43 ="""Va place atat de mult sa vorbiti cu cineva incat va adresati si unei persoane necunoscute?
+              a)DA                                                     b)NU """
+q44 ="""Aveti junghiuri si dureri? 
+              a)DA                                                     b)NU """
+q45 ="""Ati fi foarte nefericit daca majoritatea timpului v-ar lipsi o companie numeroasa?
+              a)DA                                                     b)NU """
+q46 ="""Va considerati o persoana nervoasa? 
+              a)DA                                                     b)NU """
+q47 ="""Dintre toti oamenii pe care-i cunoasteti sunt unii care va sunt in mod clar antipatici? 
+              a)DA                                                     b)NU """
+q48 ="""Credeti ca aveti suficienta incredere in dumneavoastra? 
+              a)DA                                                     b)NU """
+q49 ="""Sunteti cu usurinta jignit cand cineva va critica pe dumneavoastra sau munca dumneavoastra? 
+              a)DA                                                     b)NU """
+q50 ="""Va este greu sa va distrati efectiv la o petrecere? 
+              a)DA                                                     b)NU """
+q51 ="""Aveti deseori sentimente de inferioritate? 
+              a)DA                                                     b)NU """
+q52 ="""Puteti cu usurinta sa antrenati o petrecere in general plicticoasa? 
+              a)DA                                                     b)NU """
+q53 ="""Vi se intampla cateodata sa vorbiti despre locuri despre care nu stiti nimic? 
+              a)DA                                                     b)NU """
+q54 ="""Sa faceti griji legate de sanatatea dumneavoastra? 
+              a)DA                                                     b)NU """
+q55 ="""Va place sa faceti farse altora? 
+              a)DA                                                     b)NU """
+q56 ="""Suferiti de insomnii? 
+              a)DA                                                     b)NU """
+
+question = {q1:"a",q2:"b",q3:"b",q4:"b",q5:"a",q6:"a",q7:"b",q8:"b",q9:"b",q10:"a",
+                    q11:"b",q12:"b",q13:"b",q14:"a",q15:"b",q16:"b",q17:"b",q18:"a",q19:"a",q20:"b",
+                    q21:"b",q22:"a",q23:"b",q24:"b",q25:"a",q26:"b",q27:"a",q28:"a",q29:"a",q30:"b",
+                    q31:"b",q32:"b",q33:"a",q34:"b",q35:"a",q36:"b",q37:"b",q38:"a",q39:"b",q40:"b",
+                    q41:"b",q42:"b",q43:"a",q44:"b",q45:"b",q46:"b",q47:"a",q48:"b",q49:"b",q50:"b",
+                    q51:"b",q52:"a",q53:"b",q54:"a",q55:"b",q56:"b"}
+score = 0
+for i in question:
+    print(i)
+    ans = input("-Introdu raspunsul (a/b) : ")
+    if ans==question[i]:
+         score += 1
+    else:
+        score -=1
+print(f"Scorul final : {score}")
+if score <= 10 :
+    print("Nu exista raspunsuri corecte sau gresite. ")
+    print(f"--------------------------scorul-tau{score}-------------------------------")
+    print(""" *Colericul dispune de o reactivitate prompta, imediata, bogata, intensa, este impetuos, capabil de sentimente intense si durabile, de o mare rezistenta, 
+    este productiv in plan intelectual, in schimb este impulsiv, iritabil, isi iese repede din fire, este predispus spre “explozii” afective, manifesta incredere in 
+    propriile forte, minimalizandu-le pe ale altora, se lasa cuprins de stari de furie, de alarma, isi risipeste energia .""")
+else:
+    breakpoint()
+if score <=17:
+    print("Nu exista raspunsuri corecte sau gresite. ")
+    print(f"--------------------------scorul-tau{score}-------------------------------")
+    print(""" *Sangvinicul este deosebit de vioi, mobil, impresionabil, sensibil, manifesta reactii rapide, intra usor in activitate,
+     dezvolta energie, se adapteaza usor, este sociabil, relaxat, distins, in schimb este usuratic, guraliv, influentabil, nestatornic, fluctuant si inegal in 
+     trairile sale afective .""")
+else:
+    breakpoint()
+if score <=23:
+    print("Nu exista raspunsuri corecte sau gresite. ")
+    print(f"--------------------------scorul-tau{score}-------------------------------")
+    print("""Flegmaticul dispune de o mare capacitate de munca, rabdare, perseverenta, stapanire de sine, calm, este aproape impertubabil, cugetat, dar manifesta 
+    si inertie in manifestarile sale psihice, reactii intarziate (chiar daca sunt adecvate) si stereotipizate, capacitate relativ scazuta de a se adapta mai ales la 
+    situatiile noi, variabile, este relativ incordat.""")
+else:
+    breakpoint()
+if score >=27:
+    print("Nu exista raspunsuri corecte sau gresite. ")
+    print(f"--------------------------scorul-tau{score}-------------------------------")
+    print("""Melancolicul este hipersensibil, meticulos, migalos,  interiorizat, constiincios, dispune de procese afective durabile, intense, dar este putin increzator in
+     propriile forte, retras, supus, timid, nesigur, traieste sentimente de inferioritate, dispune de mobilitate si reactivitate slaba. """)
+else:
+    breakpoint()
+    
+    
+    
